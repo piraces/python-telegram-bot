@@ -46,6 +46,11 @@ FROM python:3.9
 This file contains all dependencies for the bot project.
 For the template and the basic behaviour of the bot, only the package `python-telegram-bot` is needed.
 
+You can just run this command in order to get dependencies installed:
+```shell
+pip install -r requirements.txt
+```
+
 🛑 **Note**: the version number for the package **is not being set**. This will cause downloading always the latest version 
 of the package. If you don't want this behaviour, please modify the `requirements.txt` file to set it.
 For example:
